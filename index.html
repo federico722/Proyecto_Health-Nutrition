@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Health/Nutrition</title>
+</head>
+<body>
+
+    <div class="menu-desplegado">
+        <!--- ================================== Menu desplegable  ================================== -->
+    <nav class="nav ">
+        <ul class="list color-nav">
+                <li class="list__item">
+                    <div class="list__button">
+                        <img class="menu__styles_1 list__img"  src="./img/Vector.png" alt="menu">
+                        <a href="index.html" class="nav__link">inicio</a>
+                    </div>
+                </li>
+
+                <li class="list__item list__item--click">
+                        <div class="list__button list__button--click">
+                            <img src="img/article-line.svg" class="list__img menu__styles_1" alt="article">
+                            <a href="#" class="nav__link " >nutricion</a>
+                            <img src="img/arrow-right-line.svg" alt="arrow" class="list__arrow menu__styles_1">
+                        </div>
+
+                        <ul class="list__show">
+                            <li class="list__inside">
+                                <a href="nutricion-basica.html" class=" nav__link  nav__link--inside">Nutrición básica</a>
+                            </li>
+
+                            <li class="list__inside">
+                                <a href="Dietas-especificas.html" class=" nav__link  nav__link--inside">Dietas específicas</a>
+                            </li>
+
+                            <li class="list__inside">
+                                <a href="nutricion-deportiva.html" class=" nav__link  nav__link--inside">Nutrición deportiva</a>
+                            </li>
+                        </ul>
+                </li>
+
+
+                <li class="list__item">
+                    <div class="list__button ">
+                        <img class="menu__styles_1 list__img" src="./img/line-chart-line.svg" alt="menu">
+                        <a href="#" class="nav__link l5">Estadisticas</a>
+                    </div>
+                </li>
+
+                <li class="list__item list__item--click">
+                    <div class="list__button list__button--click">
+                        <img src="img/notification-line.svg" class="list__img menu__styles_1" alt="article">
+                        <a href="#" class="nav__link ">Salud</a>
+                        <img src="img/arrow-right-line.svg" alt="arrow" class="list__arrow menu__styles_1">
+                    </div>
+
+                    <ul class="list__show">
+                        <li class="list__inside">
+                            <a href="Salud_basica.html" class=" nav__link  nav__link--inside">Salud Básica</a>
+                        </li>
+
+                        <li class="list__inside">
+                            <a href="Enfermedades_Comunes.html" class=" nav__link  nav__link--inside">Enfermedades Comunes</a>                        </li>
+
+                        <li class="list__inside">
+                            <a href="Hábitos_Saludables.html" class=" nav__link  nav__link--inside">Hábitos Saludables</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="list__item">
+                    <div class="list__button">
+                        <img class="menu__styles_1 list__img" src="./img/chat-1-line.svg" alt="menu">
+                        <a href="#" class="nav__link ">Contacto</a>
+                    </div>
+                </li>
+        </ul>
+    </nav>
+<!--- ================================== header ================================== -->
+    </div> 
+
+    <div class="div__main">
+
+    <!-- barra de funcionalidades donde esta el logo, menu y idioma  componente 1-->
+    <header class="header__styles_1 component_1">
+        <div class="img__bottom">
+            <img class="img__menu--line" src="./img/menu-line.svg" alt="menu">
+            <button class="bottom_despliege modo-oscuro-2">menu</button>
+        </div>
+
+
+        <div class="bar_styles_2">
+            <img class="menu__styles_2  logo-img" src="./img/HealthNutrition  1.png" alt="logo">
+        </div>
+
+        <div class="bar_styles_3">
+            <span class="paragraph-2  en modo-oscuro x1">Ingles</span>
+            <input type="checkbox" class="check" title="Select Spanish" checked >
+            <span class="paragraph-2_1 es modo-oscuro">Español</span>
+            <!--   <img class="menu__styles_3" src="./img/globe-solid 1.png" alt="idioma">  -->
+            <div id="dark-mode-toggle">
+                <img  class="contrast-2-line" src="./img/contrast-2-line.svg" alt="modo-noche">
+            </div>
+    
+        </div>
+
+    </header>
+
+    <!--- ===============================  secciones donde se almacena la informacion  =============================== -->
+    <!-- Cuadro de texto donde hay una descripcion de la salud, componente 2-->
+    <section class="section__styles_1 component_2">
+        <div class="picture_text_styles-1 color-gris">
+            <h1 class="title_style-1 dark-mode-x">¿Que son la salud y nutrición?</h1>
+            <p class="paragraph-3 dark-mode-x">La nutricion un aspecto critico de la salud y el desarrollo. La buena nutrición guarda relación con la buena salud de los niños y las madres, adultos mayores : sistemas inmunitarios más fuertes, embarazos y partos más seguros, menos riesgos de enfermedades no transmisibles tales como diabetes y enfermedades cardiovasculares. </p>
+        </div>
+    </section>
+
+    <!-- descripcion de la salud y nutricion en cuadros de texto componente 3-->
+    <section class="section__styles_2 component_3">
+        <div class="text_styles-1">
+
+            <h1 class="h1-title_1 dark-mode-x">¿Que es la nutrición?</h1>
+
+            <div class="container-text-img_1">
+                <p class="paragraph-4 dark-mode-x">Es el proceso biológico que ocurre en un ser vivo cuando su organismo absorbe, de los alimentos y líquidos, los nutrientes que necesita para su crecimiento y el desarrollo de las funciones vitales. A través de la alimentación, el organismo incorpora hidratos de carbono, vitaminas, minerales, proteínas y grasas.</p>
+
+                <img class="styles_02-img" src="./img/02_mesa_comida.jpg" alt="mesa-comida">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- componente 4 -->
+    <section class="section__styles_3 component_4">
+
+        <div class="container-text-img_2">
+            <p class="paragraph-5 dark-mode-x">Los seres humanos consumen distintos tipos de alimentos y, luego de procesos físicos y químicos, el cuerpo incorpora los nutrientes de estos alimentos y los transforma en energía para desarrollar sus principales funciones, como el movimiento, la reproducción y el crecimiento. Una buena y variada alimentación ayuda al correcto funcionamiento del organismo y, para eso, se deben incluir en las comidas distintos tipos de alimentos que aporten los diferentes nutrientes.</p>
+
+            <img class="styles_01-img" src="./img/01_bol_comida.jpg" alt="bol-ensalada">
+        </div>
+    
+
+        <div class="line color-line"></div>
+    </section>
+
+    <!--- componente 5-->
+    <section class="section__styles_4 component_5" >
+
+        <h1 class="h1-title_2 dark-mode-x">¿Que es la salud?</h1>
+
+        <div class="container-text-img_3">
+
+                <div class="paragraph-6-container">
+                    <p class="paragraph-6 dark-mode-x">Salud es la condición de todo ser vivo que goza de un absoluto bienestar tanto a nivel físico como a nivel mental y social, según la definición de la Organización Mundial de la Salud (OMS). Es decir, el concepto de salud no sólo da cuenta de la no aparición de enfermedades o afecciones, sino que va más allá de eso. En otras palabras, la idea de salud puede ser explicada como el grado de eficiencia del metabolismo y las funciones de un ser vivo a escala micro (celular) y macro (social).</p>
+
+                    <p class="paragraph-6 p-6 dark-mode-x">El estilo de vida, o sea el tipo de hábitos y costumbres que posee una persona, puede ser beneficioso para la salud, pero también puede llegar a dañarla o a influir de modo negativo sobre ella. Un individuo que mantiene una alimentación equilibrada, cuida su nutrición y realiza actividades físicas en forma cotidiana tiene mayores probabilidades de gozar de buena salud. Por el contrario, una persona que come y bebe en exceso, no tiene un buen descanso, fuma y descuida su higiene, corre serios riesgos de sufrir enfermedades evitables.</p>
+                </div>
+                
+                <div class="img-nutrition">
+                    <img class="styles_04-img" src="./img/04_corazon_salud.jpg" alt="corazon-salud">
+                    <img class="styles_04-img nutrition-i"  src="./img/05_corazon_bienestar.jpg" alt="corazon-nutricion"> 
+                </div>
+        </div>
+    </section>
+
+    <!-- componente 6-->
+    <section class="section__styles_5 component_6 ">
+
+        <div class="container__information">
+            <div class="box-x color-oscuro">
+                <h2 class="box-title title-healt dark-mode-x">HEALTH/NUTRITION</h2>
+                <p class="box-text dark-mode-x">Articulos informativosn para el bienestar en la salud y cuidado en nutricion adecuada disponible en nuestro menu.</p>
+            </div>
+
+            <div class="box-x conocenos-x color-oscuro">
+                <h2 class="box-title title-conocenos dark-mode-x">CONÓCENOS</h2>
+                <p class="box-text dark-mode-x">Esta pagina fue desarrollada para el bienestar de las personas, que desean mejorar sus habitos alimenticios. </p>
+            </div>
+
+            <div class="box-x color-oscuro">
+                <h2 class="box-title title-informacion dark-mode-x">INFORMACION OBTENIDA</h2>
+                <p class="box-text dark-mode-x">Recopilamos informacion de diferentes fuentes, incluso otras paginas web de este estilo, el link de estas paginas disponibles en el menu. </p>
+            </div>
+        </div>
+    </section>  
+
+    <!--- componente 7-->
+    <div class="section__styles_6 component_7">
+
+        <p class="Siguenos__en dark-mode-x">Síguenos en:</p>
+        <div class="link_6">
+            <img class="img__vector_1" src="./img/Vector(5).png" alt="facebook">
+            <img class="img__vector_2" src="./img/Vector (1).png" alt="instagram">
+            <img class="img__vector_3" src="./img/Vector (2).png" alt="youtube">
+        </div>
+
+        <!--- copyright --->
+        <footer class="Copyright_6">
+            © Copyright 2024 Healt/Nutrition. Todos los contenidos están en dominio público, lo que significa que son libres para compartir y usar sin restricciones.
+        </footer>
+    </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/desplegar-menu.js"></script>
+    <script src="./js/modo-noche.js"></script>
+</body>
+</html>
+
